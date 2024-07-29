@@ -29,17 +29,13 @@ html{
 #home{
     /* display: flex; */
     margin-top: 20px;
-    height: 600px;
+    height: 100vh;
 
 }
 .main-box{
     display: flex;
     justify-content: space-around;
-    align-items: end;
-    
-    
-
-   
+    align-items: end;  
 }
 .main-box .profile-image {
     border-radius: 10px solid black;
@@ -65,7 +61,7 @@ html{
     
 }
 .logo{
-    background-image: url(image/logo-removebg-preview\(1\).png);
+    background-image: url(logo-removebg-preview\(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: flex-start;
@@ -151,7 +147,7 @@ html{
     font-size: 1.5rem;
 }
 .information p{
-    font-size: 14px;
+    font-size: 1rem;
 }
 .information .btn{
     display: inline-block;
@@ -197,7 +193,7 @@ html{
 
   /* Portfolio */
   #Portfolio{
-      /* height: 600px; */
+      height: auto;
       color: white;
   }
   #Portfolio #nm{
@@ -275,7 +271,7 @@ html{
     padding: 20px;
     margin: 60px 0;
     text-align: center ;
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--font);
 }
 .experiencebox .row{
