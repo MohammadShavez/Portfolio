@@ -1,0 +1,61 @@
+#navbar {
+    background-color: #000000cb; /* Background color of the navbar */
+    padding: 10px 20px; /* Padding around the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center the items vertically */
+    justify-content: space-between; /* Space between the logo and nav items */
+  }
+  
+  #nav {
+    display: flex; /* Flexbox for alignment of the nav items */
+    justify-content: space-between; /* Space between logo and nav items */
+    width: 100%; /* Full width of the navbar */
+  }
+  
+  .logo p {
+    color: #fff; /* Logo text color */
+    font-size: 20px; /* Logo font size */
+    font-weight: bold; /* Bold logo text */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Navigation links styling */
+  ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal alignment */
+    gap: 20px; /* Space between each navigation item */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+
+  ul li a {
+    color: #fff; /* Navigation link text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size of navigation links */
+    padding: 8px 12px; /* Padding around each link */
+    border-radius: 4px; /* Rounded corners for hover effect */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  ul li a:hover {
+    background-color: #575757; /* Background color on hover */
+  }
+  
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    #navbar {
+      flex-direction: column; /* Stack the navbar vertically on small screens */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    ul {
+      flex-direction: column; /* Stack the navigation links vertically */
+      gap: 10px; /* Reduce space between links */
+      width: 100%; /* Full width for links */
+    }
+  
+    ul li a {
+      text-align: left; /* Align text to the left */
+      width: 100%; /* Full width for each link */
+    }
+}
